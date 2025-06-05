@@ -1,0 +1,18 @@
+print("hello world")
+print(type (3))
+print('suma','3+2=',3+2) #addition (+)
+print(3-2) # substraction (-)
+print(2*3) # multiplication (*) not x
+print(3/2) # division (/)
+print(3%2) # modulus(%)
+print(3//2) # floor divicion operator (//)
+print(3**2) # exponencial operador (//)- equivalent to 3potencia2
+print('Marina')
+print('Macias')
+print('Rodriguez')
+print('i am enjoying 30 dys of python')
+print(type(10))
+print(type(9.8))
+print(type(3.14))
+print(type(4-4j))
+print(type(['Asabeneh','Python','Finland']))
