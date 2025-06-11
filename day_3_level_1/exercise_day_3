@@ -1,0 +1,110 @@
+print('')
+#1 edad como variable entera
+age=19
+print(age)
+#2 declara tu altura como punto flotante
+altura=1.58 
+print('mi altura es :',altura,'metros')
+#3 declara una variable q almacena numero complejo
+complex_number=3+2j
+print('numero complejo',[complex_number],type(complex_number))
+#4
+enter_base=20
+enter_height=10
+area=0.5*enter_base*enter_height
+print(area)
+#5
+a=5
+b=4
+c=3
+perimeter=a+b+c
+print('el perimetro del triagulo es :',perimeter)
+#6
+pi=3.1416
+altura=2
+ancho=3
+area=altura*ancho
+perimetro=2*(altura+ancho)
+print('el area es:',area, 'el perimetro',perimetro)
+#7
+r=3
+area1=pi*r*r
+c=2*pi*r
+print('el area es :',area, 'circunferencia :',c)
+#8 interseccion
+
+x=1
+y=(2*x)-2
+x4=0
+y4=(2*x4)-2
+#pendiente
+m1=((y4-y)/(x4-x))
+#9
+#pendiente
+y1=2
+y2=10
+x1=2
+x2=6
+m=(y2-y1)/(x2-x1)
+print(m)
+#eucladean distance
+y1=2
+y2=10
+x1=2
+x2=6
+d=((x2-x1)**2+(y2-y1)**2)**0.5
+print(d)
+#10
+print(m1>m)
+print(m>m1)
+print(m1==m)
+#11
+x6=0
+y6=(x6**2)+(6*x6)+9
+print(y6)
+#12
+print(len('python')>len('dragon'))
+#13
+print("\nVerificar 'on' en palabras")
+print("¿'on' está en 'python' y 'dragon'?", "on" in "python" and "on" in "dragon")
+#14
+oracion = "Espero que este curso no esté lleno de jerga."
+print("La oración contiene jerga", "jerga" in oracion)
+#15
+frase='There is no on in both dragon and python'
+print('dragon and python','on' in frase)
+
+#16
+longitud=len('python')
+print(f'longitud como float :',float(longitud))
+print(f'longidud como string:',str(longitud))
+#17
+Number1=16
+print(Number1 % 2==0)
+#18
+divicion=7/3
+print(divicion==2.7)
+#19
+#comprobar si el tipo es diferente
+num1=type('10')
+num2=type(10)
+print(num1 == num2)
+#20
+#comprobar
+print(int(float('9.8')) ==10)
+#21
+horas=float(input('ingrese las horas :'))
+tarifa=float(input('introducir la tarifa :'))
+print('salario :',horas*tarifa)
+#22
+#calculadora de tiempo de vida
+años=int(input('ingrese numero de años vividos :'))
+segundos=años*365*24*60*60
+print('has vivido :',segundos,'segundos')
+#23
+#tabla
+print("\n1\t1\t1\t1\t1")
+print("2\t1\t2\t4\t8")
+print("3\t1\t3\t9\t27")
+print("4\t1\t4\t16\t64")
+print("5\t1\t5\t25\t125")
