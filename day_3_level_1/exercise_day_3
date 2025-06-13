@@ -71,9 +71,10 @@ print("¿'on' está en 'python' y 'dragon'?", "on" in "python" and "on" in "drag
 oracion = "Espero que este curso no esté lleno de jerga."
 print("La oración contiene jerga", "jerga" in oracion)
 #15
+print('')
 frase='There is no on in both dragon and python'
 print('dragon and python','on' in frase)
-
+print('')
 #16
 longitud=len('python')
 print(f'longitud como float :',float(longitud))
