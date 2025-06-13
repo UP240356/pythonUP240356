@@ -1,0 +1,110 @@
+#1.
+lista_vacia=[]
+
+#2.
+frutas=['papaya','pasas',"uvas","naranjas"]
+
+#3.
+print(len(frutas))
+
+#4.
+
+print(frutas[0])                
+print(frutas[len(frutas)//2])   
+print(frutas[-1])               
+
+#5.
+mixed_data_types=['Marina Macias Rodriguez', 19, 1.56, 'Soltera', 'calvillo']
+
+#6.
+compañia1=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+#7.
+print(compañia1)
+
+#8.
+print(len(compañia1))
+
+#9.
+print(compañia1[0])                
+print(compañia1[len(compañia1)//2]) 
+print(compañia1[-1])  
+
+#10.
+compañia1[1]='Alberto'
+
+#11.
+compañia1.append('Twitter')
+print(compañia1)
+
+#12.
+medio=len(compañia1)//2
+compañia1.insert(medio,'intel')
+print(compañia1)
+
+#13.
+compañia1[0]=compañia1[0].upper()
+print(compañia1)
+
+#14.
+print('#;'.join(compañia1))
+
+#15
+print('google' in compañia1)
+
+#16.
+compañia1.sort()
+print(compañia1)
+
+#17
+compañia1.reverse()
+print(compañia1)
+
+#18
+print(compañia1[:3])
+
+#19
+print(compañia1[:-3])
+
+#20
+long = len(compañia1)
+if long % 2 == 1:
+    print([compañia1[long//2]])
+else:
+    print(compañia1[long//2-1:long//2+1])
+
+#21
+compañia1.pop(0)
+print(compañia1)
+
+#22.
+medio = len(compañia1)//2
+if len(compañia1)%2==1:
+    compañia1.pop(medio)
+else:
+    compañia1.pop(medio)
+    compañia1.pop(medio-1)
+print(compañia1)
+
+#23
+compañia1.pop()
+print(compañia1)
+
+#24
+compañia1.clear()
+print(compañia1)
+
+#25
+del compañia1
+
+#26.
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node', 'Express', 'MongoDB']
+lleno = front_end + back_end
+print(lleno)
+
+#27
+index_redux = lleno.index('Redux')
+lleno.insert(index_redux + 1, 'Python')
+lleno.insert(index_redux + 2, 'SQL')
+print(lleno)
