@@ -25,10 +25,6 @@ print(lista)
 tupla = age
 print(tupla[0])  
 
-conjunto = age
-conjunto.add([4]) 
-print(conjunto)
-
 #ejercicio 3
 oracion = "Soy profesor y me encanta inspirar y enseñar."
 
